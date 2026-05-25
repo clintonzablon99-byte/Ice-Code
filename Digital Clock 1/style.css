@@ -1,0 +1,55 @@
+body{
+    font-family:monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+    margin-top: 50px;
+    color: blue;
+
+}
+
+.clock{
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    margin-top: 20px;
+    font-size: 7em;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.24);
+}
+
+#hours{
+    color: red;
+}
+
+#ampm{
+    color: purple;
+}
+
+#minutes{
+    color: green;
+}
+
+#seconds{
+    color: hsl(197, 94%, 48%);
+
+}
+
+
+@media(max-width:992px){
+    .clock{
+        font-size: 5em;
+    }
+    .heading{
+        font-size: 40px;
+    }
+
+}
